@@ -196,3 +196,31 @@ sections:
       - *ref_7
       - *ref_8
       - *ref_9
+  - name: NAS Start Page (local)
+    icon: ''
+    items:
+      - title: NAS
+        description: truenas
+        icon: truenas.svg
+        url: http://192.168.0.123:10001
+        target: newtab
+        tags: [link, nas, local]
+      - title: TP Router
+        description: TP router
+        icon: tp-link.png
+        url: http://192.168.0.1
+        target: newtab
+        tags: [link, router, local]
+      - title: Mi Home
+        description: Mi home
+        icon: mihome.png
+        url: http://192.168.0.20
+        target: newtab
+        tags: [link, home, local]
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+
