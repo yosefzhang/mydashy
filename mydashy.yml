@@ -186,17 +186,6 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-    filteredItems:
-      - *ref_0
-      - *ref_1
-      - *ref_2
-      - *ref_3
-      - *ref_4
-      - *ref_5
-      - *ref_6
-      - *ref_7
-      - *ref_8
-      - *ref_9
   - name: NAS Start Page (local)
     icon: ''
     items:
@@ -240,13 +229,11 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-    filteredItems:
-      - *ref_10
-      - *ref_11
-      - *ref_12
   - name: Quectel (Work)
-      items:
-      - title: Devops
+    icon: ''
+    items:
+      - &ref_13
+        title: Devops
         description: Quectel Devops
         icon: devops.png
         url: https://devops.quectel.com/devops/search/agenda-mgmt/my-agenda
@@ -255,7 +242,8 @@ sections:
           - link
           - quectel
         statusCheck: true
-      - title: Confluence
+      - &ref_14
+        title: Confluence
         description: Quectel Confluence
         icon: confluence.svg
         url: https://knowledge.quectel.com/display/SW1LTEA/SW9
@@ -324,10 +312,9 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-    items: []
-    filteredItems: []
   - name: 常用网址
-      items:
+    icon: ''
+    items:
       - title: Wikipedia
         description: 维基百科
         icon: wikipedia.svg
@@ -382,12 +369,9 @@ sections:
         url: https://www.right.com.cn/forum/
         target: newtab
         statusCheck: true
-
     displayData:
       sortBy: default
       rows: 1
       cols: 1
       collapsed: false
       hideForGuests: false
-    items: []
-    filteredItems: []
