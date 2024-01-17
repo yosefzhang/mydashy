@@ -79,6 +79,7 @@ sections:
           - link
           - nas
           - remote
+        statusCheck: true
         id: 0_1962_nas
       - &ref_1
         title: My Dashy v6
@@ -199,28 +200,56 @@ sections:
   - name: NAS Start Page (local)
     icon: ''
     items:
-      - title: NAS
+      - &ref_10
+        title: NAS
         description: truenas
         icon: truenas.svg
         url: http://192.168.0.123:10001
         target: newtab
-        tags: [link, nas, local]
-      - title: TP Router
+        tags:
+          - link
+          - nas
+          - local
+        statusCheck: true
+        id: 0_1833_nas
+      - &ref_11
+        title: TP Router
         description: TP router
         icon: tp-link.png
         url: http://192.168.0.1
         target: newtab
-        tags: [link, router, local]
-      - title: Mi Home
+        tags:
+          - link
+          - router
+          - local
+        id: 1_1833_tprouter
+      - &ref_12
+        title: Mi Home
         description: Mi home
         icon: mihome.png
         url: http://192.168.0.20
         target: newtab
-        tags: [link, home, local]
+        tags:
+          - link
+          - home
+          - local
+        id: 2_1833_mihome
     displayData:
       sortBy: default
       rows: 1
       cols: 1
       collapsed: false
       hideForGuests: false
-
+    filteredItems:
+      - *ref_10
+      - *ref_11
+      - *ref_12
+  - name: Quectel (Work)
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+    filteredItems: []
