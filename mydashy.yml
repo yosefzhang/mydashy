@@ -68,67 +68,61 @@ sections:
     items:
       - title: NAS
         description: truenas
-        icon: ./icon/truenas.svg
+        icon: truenas.svg
         url: https://nas.yosefzhang.top:8888
-        target: newtab
-        tags: [link, nas, remote]
-      - title: My Dashy
-        description: my dashy
-        icon: ./icon/dashy.png
-        url: https://dashy.yosefzhang.top:8888
         target: newtab
         tags: [link, nas, remote]
       - title: My Dashy v6
         description: my dashy via ipv6
-        icon: ./icon/dashy.png
+        icon: dashy.png
         url: https://dashy.yosefzhang.top:8888
         target: newtab
         tags: [link, nas, remote]
       - title: My Dashy v4
         description: my dashy via ipv4
-        icon: ./icon/dashy.png
+        icon: dashy.png
         url: http://29199a453s.yicp.fun:80
         target: newtab
         tags: [link, nas, remote]
       - title: Lucky
         description: lucky proxy
-        icon: ./icon/lucky.svg
+        icon: lucky.svg
         url: https://lucky.yosefzhang.top:8888
         target: newtab
         tags: [link, nas, remote]
       - title: qBittorrent
         description: qBittorrent v4.3.9
-        icon: ./icon/qbittorrent.svg
+        icon: qbittorrent.svg
         url: https://qb.yosefzhang.top:8888
         target: newtab
         tags: [link, nas, remote]
       - title: Jellyfin
         description: Jellyfin server
-        icon: ./icon/jellyfin.svg
+        icon: jellyfin.svg
         url: https://jellyfin.yosefzhang.top:8888
         target: newtab
         tags: [link, nas, remote]
       - title: Vaultwarden
         description: Vaultwarden password management
-        icon: ./icon/vaultwarden.svg
+        icon: vaultwarden.svg
         url: https://vm.yosefzhang.top:8888
         target: newtab
         tags: [link, nas, remote]
       - title: FileBrower
         description: filebrower on truenas
-        icon: ./icon/filebrower.svg
+        icon: filebrower.svg
         url: https://nas.yosefzhang.top:8888
         target: newtab
         tags: [link, nas, remote]
       - title: DDNS-go
         description: DDNS-go
-        icon: ./icon/ddns-updater.svg
+        icon: ddns-updater.svg
         url: https://ddns.yosefzhang.top:8888
         target: newtab
         tags: [link, nas, remote]
       - title: Mihomo
         description: mihomo for clash
-        icon: ./icon/clash.png
+        icon: clash.png
         url: https://mihomo.yosefzhang.top:8888
         target: newtab
         tags: [link, nas, remote]
