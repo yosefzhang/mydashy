@@ -245,6 +245,144 @@ sections:
       - *ref_11
       - *ref_12
   - name: Quectel (Work)
+      items:
+      - title: Devops
+        description: Quectel Devops
+        icon: devops.png
+        url: https://devops.quectel.com/devops/search/agenda-mgmt/my-agenda
+        target: newtab
+        tags:
+          - link
+          - quectel
+        statusCheck: true
+      - title: Confluence
+        description: Quectel Confluence
+        icon: confluence.svg
+        url: https://knowledge.quectel.com/display/SW1LTEA/SW9
+        target: newtab
+        tags:
+          - link
+          - quectel
+        statusCheck: true
+      - title: JIRA
+        description: Quectel JIRA
+        icon: jira.svg
+        url: https://ticket.quectel.com
+        target: newtab
+        tags:
+          - link
+          - quectel
+        statusCheck: true
+      - title: Qualcomm Case
+        description: Qualcomm Case
+        icon: qualcomm.svg
+        url: https://qualcomm-cdmatech-support.my.site.com/s/
+        target: newtab
+        tags:
+          - link
+          - quectel
+        statusCheck: true
+      - title: Qualcomm DOC
+        description: Qualcomm Document
+        icon: qualcomm.svg
+        url: https://createpoint.qti.qualcomm.com/dashboard/#product-kit/search
+        target: newtab
+        tags:
+          - link
+          - quectel
+        statusCheck: true
+      - title: Qualcomm Chipcode
+        description: Qualcomm Chipcode
+        icon: qualcomm.svg
+        url: https://chipcode.qti.qualcomm.com/quectel-wireless-solutions-co-ltd
+        target: newtab
+        tags:   
+          - link
+          - quectel
+        statusCheck: true
+      - title: Jenkins
+        description: Quectel Jenkins
+        icon: jenkins.svg
+        url: http://sw.jenkins.quectel.com/
+        target: newtab
+        tags:   
+          - link
+          - quectel
+        statusCheck: true
+      - title: Coverity
+        description: Quectel Coverity
+        icon: coverity.svg
+        url: http://192.168.25.76:8080/reports.htm#v12321/p10076
+        target: newtab
+        tags:   
+          - link
+          - quectel
+        statusCheck: true
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+    filteredItems: []
+  - name: 常用网址
+      items:
+      - title: Wikipedia
+        description: 维基百科
+        icon: wikipedia.svg
+        url: https://www.wikipedia.org/
+        target: newtab
+        statusCheck: true
+      - title: Google翻译
+        description: Google翻译
+        icon: google.svg
+        url: https://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp
+        target: newtab
+        statusCheck: true
+      - title: 腾讯文档
+        description: 腾讯文档
+        icon: qqdoc.svg
+        url: https://docs.qq.com/desktop/mydoc
+        target: newtab
+        statusCheck: true
+      - title: iconfont
+        description: 阿里图标库
+        icon: iconfont.png
+        url: https://www.iconfont.cn/
+        target: newtab
+        statusCheck: true
+      - title: M-team
+        description: PT m-team
+        icon: pt.svg
+        url: https://kp.m-team.cc/index.php
+        target: newtab
+        statusCheck: true
+      - title: UP云搜
+        description: UP云搜
+        icon: up.png
+        url: https://www.upyunso.com/
+        target: newtab
+        statusCheck: true
+      - title: GitHub
+        description: GitHub
+        icon: github.svg
+        url: https://github.com/yosefzhang
+        target: newtab
+        statusCheck: true
+      - title: CSDN
+        description: CSDN
+        icon: csdn.svg
+        url: https://blog.csdn.net/yosefzhang?type=blog
+        target: newtab
+        statusCheck: true
+      - title: 恩山论坛
+        description: 恩山论坛
+        icon: enshan.gif
+        url: https://www.right.com.cn/forum/
+        target: newtab
+        statusCheck: true
+
     displayData:
       sortBy: default
       rows: 1
